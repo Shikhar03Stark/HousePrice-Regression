@@ -1,5 +1,6 @@
 
-# HousePrice-Regression
+# Harshit (101917204) 3CSE8
+## DA Assignment 1
 Documentation for HousePrice Regression problem from preprocessing to model fitting [(Notebook Link)](https://www.kaggle.com/harshitvish/da-assignment1/notebook) [(Github Link)](https://github.com/Shikhar03Stark/HousePrice-Regression)
 
 ## Steps followed
