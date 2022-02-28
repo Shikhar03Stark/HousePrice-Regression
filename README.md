@@ -68,7 +68,7 @@ And achieved similar results due to small input, transformation and rescaling.
 ---
 ### *Validation Accuracy*
 
-|            | MAE      | MSE          | MSE          |
+|            | R2       | MSE          | MSE          |
 |------------|----------|--------------|--------------|
 | ridge_svd  | 0.676299 | 32215.709900 | 3.173511e+09 |
 | ridge_eig  | 0.676299 | 32215.709900 | 3.173511e+09 |
