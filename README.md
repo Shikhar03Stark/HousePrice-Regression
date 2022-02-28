@@ -68,21 +68,20 @@ And achieved similar results due to small input, transformation and rescaling.
 ---
 ### *Validation Accuracy*
 
-
-|            | R2       | MAE          | MSE          |
+|            | MAE      | MSE          | MSE          |
 |------------|----------|--------------|--------------|
-| ridge_svd  | 0.563289 | 27204.097906 | 1.819488e+09 |
-| ridge_eig  | 0.563289 | 27204.097906 | 1.819488e+09 |
-| svd        | 0.511364 | 22100.095640 | 2.035823e+09 |
-| eig        | 0.511364 | 22100.095640 | 2.035823e+09 |
-| qr         | 0.511364 | 22100.095640 | 2.035823e+09 |
-| svd-qr     | 0.511364 | 22100.095640 | 2.035823e+09 |
-| svd-jacobi | 0.511364 | 22100.095640 | 2.035823e+09 |
+| ridge_svd  | 0.676299 | 32215.709900 | 3.173511e+09 |
+| ridge_eig  | 0.676299 | 32215.709900 | 3.173511e+09 |
+| svd        | 0.831169 | 20421.084901 | 7.166733e+08 |
+| eig        | 0.831169 | 20421.084901 | 7.166733e+08 |
+| qr         | 0.831169 | 20421.084901 | 7.166733e+08 |
+| svd-qr     | 0.831169 | 20421.084901 | 7.166733e+08 |
+| svd-jacobi | 0.831169 | 20421.084901 | 7.166733e+08 |
 
 ### *Rank in Leaderboard*
 Using only Built-in LinearRegression and Ridge Regression
-I was placed at **4309** position.
+I was placed at **3889** position.
 
-RMSE: *1.61730*
+RMSE: *0.33649*
 
 Code: [Notebook Link](https://www.kaggle.com/harshitvish/da-assignment1/notebook)
